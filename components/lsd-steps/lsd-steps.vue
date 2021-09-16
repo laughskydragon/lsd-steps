@@ -32,7 +32,7 @@
 				<text class="u-line-1" :style="{ 
 					color: index <= current ? activeColor : unActiveColor,
 				}" :class="['u-steps__item__text--' + direction]">
-					{{ item.name }}111
+					{{ item.name }}
 				</text>
 				<view class="u-steps__item__line" :class="['u-steps__item__line--' + mode]" v-if="index < list.length - 1">
 					<u-line :direction="direction" length="100%" :hair-line="false" :color="unActiveColor"></u-line>
